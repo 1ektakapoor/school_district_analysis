@@ -35,6 +35,8 @@ Replacing the ninth graders' scores in relation to the other schools did not aff
 * **How does replacing the ninth-grade scores affect the following:**
   * **Math and reading scores by grade**
   
+Looking at the below tables, with the first photo taken from the original analysis, it is important to notw that the math and reading scores did not affect the scores at a larger scale. The only effect that took place when replacing the scores for the ninth graders is represented in the table in only one field - THS' ninth grade value. Grades ten to tweleve do not show differences between either analysis, because the requirements to find those values were not modified in the second analysis.
+ 
  Math Scores:
  
 ![Math Scores Original](Resources/mathScores_original.png) 
@@ -47,14 +49,20 @@ Reading Scores:
 
   * **Scores by school spending**
 
+THS falls in the spending range of $630 - $644. When looking at the results between each analysis, before and after removing ninth graders scores, it would look like as though there was no difference. This is partially true - when looking at the values of school spending to the whole number or tenths place there is no difference, the difference between the analysis shows in the hundrendths place for these values. 
+
 ![Spending Original](Resources/spending_original.png)
 ![Spending Revised](Resources/spending_revisied.png)
 
   * **Scores by school size**
 
+Similar to our analysis of spending by schools, our analysis of scores by school size provides us the same kind of output when comparing the results of our first and second analysis. The two result sets are no different from each other, in order to see differences we would have to provide our analysis at the hundredths place to see some change. 
+
 ![School Size Revised](Resources/schoolSize_revised.png)
 
   * **Scores by school types**
+
+Replacing THS' ninth grade values and running an analysis on scores by school types shows the same differences as our other analyses run for the school board. The differences presented in scores by school types are minimal when viewing the dataset in whole numbers or to the tenth place. The differences, in relation to this analysis, are present in the hundrendths  place.
 
 ![School Type Original](Resources/schoolType_original.png)
 ![School Type Revised](Resources/schoolType_revisied.png)
