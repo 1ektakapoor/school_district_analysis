@@ -18,17 +18,20 @@ The photo below shows the district summary analysis revisied, meaning it is no l
 
 * **How is the school summary affected?**
 
-THS' school summary was affected by the replacement of the subject test scores by having the school's passing rate decreae significantly. In the original analysis, first figure below, the overall passing percentage for the school was 90%. The original analysis did contain all grade levels with the dishonest test scores. In the second analysis, the grades for all analysis relevant to THS was limited to tenth to twelfth grade. This change in scope for  grade levels and more accurate data provided us with an accurate analysis for THS and the scores and passing percentages. In summary, THS' school summary was affected by a decrease in all passing percentages by roughly 30%.
+THS' school summary was affected by the replacement of the subject test scores by having the school's passing rate decreae significantly. In the original analysis, first figure below, the overall passing percentage for the school was 90%. The original analysis did contain all grade levels with the dishonest test scores. In the second analysis, the grades for all analysis relevant to THS was limited to tenth to twelfth grade since the ninth graders scores were set to NaN. This change in scope for grade levels and more accurate data provided us with an accurate analysis for THS and the scores and passing percentages. In summary, THS' school summary was affected by a decrease in all passing percentages by roughly 30%.
 
 This first figure shows THS' summary from grades nine to twelve, or our original analysis.
 
 ![School Summary Original](Resources/schoolSummary_original.png)
 
-This second figure shows THS' summary from grades ten to twelve, excluding ninth grade. This is also known as our secondary analysis.
+This second figure shows THS' summary from grades ten to twelve, also known as our secondary analysis.
 
 ![School Summary Revised](Resources/schoolSummary_revised.png)
 
 * **How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?**
+
+Replacing the ninth graders' scores in relation to the other schools did not affect THS's performance. In each analysis we did, both with the ninth graders scores and without, THS ranked high against other schools. Upon first look, the thought would be the rankings would be different, but in our second analysis the calculations for THS were done against THS tenth to twelfth grade population, rather than each individuals student count. This means that every other school count was for four grades, when THS' school count was for three grades - because of this difference in school counts, the difference between rankings in the first and second analysis will not be as different as one might think.
+
 * **How does replacing the ninth-grade scores affect the following:**
   * **Math and reading scores by grade**
   * **Scores by school spending**
