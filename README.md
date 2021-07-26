@@ -34,8 +34,36 @@ Replacing the ninth graders' scores in relation to the other schools did not aff
 
 * **How does replacing the ninth-grade scores affect the following:**
   * **Math and reading scores by grade**
+  
+ Math Scores:
+ 
+![Math Scores Original](Resources/mathScores_original.png) 
+![Math Scores Revised](Resources/mathScores_revised.png)
+
+Reading Scores: 
+
+![Reading Score Original](Resources/readingScore_original.png)
+![Reading Score Revised](Resources/readingScore_revisied.png)
+
   * **Scores by school spending**
+
+![Spending Original](Resources/spending_original.png)
+![Spending Revised](Resources/spending_revisied.png)
+
   * **Scores by school size**
+
+![School Size Revised](Resources/schoolSize_revised.png)
+
   * **Scores by school types**
 
+![School Type Original](Resources/schoolType_original.png)
+![School Type Revised](Resources/schoolType_revisied.png)
+
 ## Summary
+
+Overall, there are four changes in the second school district analysis that can be made after replacing the ninth grade reading and math scores at Thomas High School with NaNs:
+1. The overall passing percentage rate for the school dropped from 91% to 65%.
+2. The average scores for math and reading fell as well, not as significantly as the overall passing percentage, but the results did fall an amount. 
+3. Grade level data for ninth graders at THS will show as NaN, which can be later updated once the students honest results come in.
+4. In further analysis (i.e. school spending, size, and types), the removal of the test scores did not impact the results. Majority of the differences were less than one percent in these categories.
+
